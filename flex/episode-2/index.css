@@ -1,0 +1,27 @@
+html,
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  background: #f9f9f9;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-item {
+  padding: 3rem;
+}
