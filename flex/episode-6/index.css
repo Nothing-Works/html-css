@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background: #e3e3e3;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  width: 50%;
+  flex: none;
+}

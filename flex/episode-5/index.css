@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid #cecece;
+  padding: 20px;
+}
+
+.media {
+  display: flex;
+  width: 100%;
+}
+
+.media-left {
+  margin-right: 1rem;
+}
+
+.media-content {
+  flex: 1;
+}
+
+textarea {
+  padding: 0;
+  width: 100%;
+  min-height: 100px;
+  border-color: #cecece;
+}
+
+.media-content-buttons {
+  display: flex;
+  justify-content: end;
+}

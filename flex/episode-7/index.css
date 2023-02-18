@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #00b1b3;
+  padding: 1rem;
+}
+
+a {
+  color: white;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    display: block;
+  }
+  a {
+    display: block;
+  }
+}
