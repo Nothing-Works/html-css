@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pricing Plans</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../base.css" />
+    <style type="text/css">
+      section {
+        margin: 4rem auto;
+        padding: 2rem;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: minmax(9rem, 16rem);
+        gap: 2rem;
+      }
+      @media screen and (min-width: 620px) {
+        section {
+          grid-template-columns: repeat(3, minmax(9rem, 16rem));
+        }
+      }
+      span {
+        font-size: 0.8rem;
+        opacity: 0.8;
+      }
+      p {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 1.5rem 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="plan">
+        <h2>Standard</h2>
+        <span>Monthly Plan</span>
+        <p>$25</p>
+      </div>
+      <div class="plan plan-highlight">
+        <h2>Popular</h2>
+        <span>Monthly Plan</span>
+        <p>$40</p>
+      </div>
+      <div class="plan">
+        <h2>Premium</h2>
+        <span>Monthly Plan</span>
+        <p>$55</p>
+      </div>
+    </section>
+  </body>
+</html>
