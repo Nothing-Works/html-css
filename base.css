@@ -22,3 +22,73 @@ h4,
 h5 {
   font-weight: normal;
 }
+
+/* Episode 7 - Contact Form */
+
+a.btn {
+  display: inline-block;
+  padding: 0.3rem 1.2rem;
+  background-color: white;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+}
+label {
+  display: block;
+  font-size: 0.8rem;
+}
+input,
+textarea {
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  background-color: #333744;
+  border: solid 1px #434753;
+  border-radius: 5px;
+  width: 100%;
+  resize: none;
+  color: white;
+  font-size: 0.8rem;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border: solid 1px rgb(126, 138, 163);
+}
+
+/* Episode 9 - Restaurant Listing */
+
+.btn-book-table {
+  border: none;
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #16a34a;
+  border-radius: 0.5rem;
+  background-color: #16a34a;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+/* Episode 9 - Pricing Plans */
+
+.plan {
+  background-color: rgb(39, 39, 39);
+  padding: 1.6rem;
+  border-radius: 10px;
+  box-shadow: 6px 6px 50px -35px rgba(0, 0, 0, 0.75);
+}
+.plan-highlight {
+  background-color: #1a6460;
+  color: white;
+}
+
+/* Episode 12 - Dashboard Layout */
+
+i.fa-money-bill-wave {
+  color: #4e94db;
+  font-size: 1.4rem;
+}
