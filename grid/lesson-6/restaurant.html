@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Restaurant Listing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style type="text/css">
+      section {
+        background-color: #32343c;
+        padding: 1.5rem;
+        max-width: 28rem;
+        margin: 6rem auto;
+
+        display: grid;
+        grid-template: auto auto / auto 1fr auto;
+        gap: 1.5rem 1rem;
+        align-items: center;
+      }
+      .rating {
+        align-self: start;
+        justify-self: end;
+      }
+      img {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        object-fit: cover;
+      }
+      h3 {
+        line-height: 1.2;
+      }
+      span {
+        font-size: 0.8rem;
+        opacity: 0.7;
+      }
+      i.fa {
+        font-size: 0.6rem;
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <!-- Restaurant 1 -->
+      <img src="1.jpeg" alt="Cheese & Grill Restaurant" />
+      <div class="info">
+        <h3>Cheese & Grill Restaurant</h3>
+        <span>St. Marks Street</span>
+      </div>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+
+      <!-- Restaurant 2 -->
+      <img src="2.jpeg" alt="Momo Magic" />
+      <div class="info">
+        <h3>Momo Magic</h3>
+        <span>MG Road</span>
+      </div>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+    </section>
+  </body>
+</html>
